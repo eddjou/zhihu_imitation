@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>知乎</title>
+</head>
+<style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif;
+    }
+    body{
+        text-align: center;
+    }
+    #header{
+        margin: 0 auto;
+        background-image:url(./header.png);
+         background-repeat: no-repeat;
+        width: 160px;
+        height: 74px;
+    }
+    h2{
+        color: #555;
+        margin: 30px 0 20px;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        line-height: 1;
+    }
+    .suibian{
+        margin: 0 auto;
+        margin-bottom: 10px;
+        height: 35px;
+        width: 144px;
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+    }
+    #a11{ 
+        display: inline-block;
+        color: #0f88eb;
+        width: 72px;
+        text-align: center;
+        float: left;
+        line-height: 35px;
+    }
+    #a12{
+        display: inline-block;
+        color: #555;
+        width: 72px;
+        text-align: center;
+        line-height: 35px;
+    }
+    #a13{
+        position: absolute;
+        left: 16px;
+        bottom: 0px;
+        margin: 0;
+        width: 40px;
+        height: 2px;
+        background: #0f88eb;
+    }
+    #body{
+        margin: 0 auto;
+        width: 300px;
+        font-size: 15px;
+        padding: 1px 0;
+        border: 1px solid #d5d5d5;
+        border-radius: 3px;
+    }
+    #input-{
+        padding: 1em .8em;
+        margin: 0;
+        overflow: hidden;
+    }
+    .input{
+        border-top: 1px solid #e8e8e8;
+        padding: 1em .8em;
+        margin: 0;
+        overflow: hidden;
+    }
+    .kuang{
+        width: 100%;
+        border: none;
+        text-align: left;
+    }
+    #a4{
+        margin: 0 auto;
+        margin-top: 18px;
+        line-height: 41px;
+        width: 300px;
+        text-align: center;
+        background-color: #0f88eb;
+        color: white;
+        font-size: 15px;
+        border-radius: 3px;
+    }
+    #a5{
+        margin-top: 21px;
+        font-size: 13px;
+        text-align: center;
+        color: #999;
+    }
+    #a52{
+        color:#0f88eb;
+    }
+    #a6{
+        margin: 0 auto;
+        margin-top: 48px;
+        line-height:39px;
+        width: 300px;
+        text-align: center;
+        border: 1px solid #96c2e9;
+        border-radius: 3px;
+        color:#5fa6e5;
+        cursor: pointer;
+    }
+    .footer{
+        color: #aebdc9;
+        font-size: 12px;
+        line-height: 42px;
+        text-align: center;
+    }
+    .dot{
+        margin: 0 3px;
+    }
+</style>
+<body>
+    <div id="header"></div>
+    <h2>与世界分享你的知识、经验和见解</h2>
+    <div class="suibian">
+        <span id="a11">注册</span>
+        <span id="a13"></span>
+        <span id="a12">登录</span>
+    </div>
+
+    <div id="body">
+        <div id="input-">
+            <input required="" name="fullname" aria-label="姓名" placeholder="姓名" type="text" class="kuang">
+        </div>
+        <div class="input">
+            <input required="" name="phone_num" aria-label="手机号（仅支持中国大陆）" placeholder="手机号（仅支持中国大陆）" type="text" class="kuang">
+        </div>
+        <div class="input">
+            <input required="" name="password" aria-label="密码" placeholder="密码（不少于 6 位）" autocomplete="off" type="password" class="kuang">
+        </div>
+    </div>
+    <div id="a4">注册知乎</div>
+    <div id="a5">
+    <span id="a51">点击「注册」按钮，即代表你同意</span>
+    <span id="a52">《知乎协议》</span>
+    </div>
+    <p id="a6">下载知乎App</p>
+    <div class="footer">
+        <span>&copy; 2016 知乎</span>
+        <span class="dot">·</span>
+        <span>知乎圆桌</span>
+        <span class="dot">·</span>
+        <span>发现</span>
+        <span class="dot">·</span>
+        <span>移动应用</span>
+        <span class="dot">·</span>
+        <span>使用机构帐号登录</span>
+        <span class="dot">·</span>
+        <span>联系我们</span>
+        <span class="dot">·</span>
+        <span>来知乎工作</span>
+        <span class="dot">·</span>
+        <span>京 ICP 备 13052560 号</span>
+        <span class="dot">·</span>
+        <span>京公网安备 11010802010035 号</span>
+    </div>
+</html>
